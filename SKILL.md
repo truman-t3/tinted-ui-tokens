@@ -19,12 +19,18 @@ The bundled generator (`scripts/generate_tokens.py`) is brand-agnostic: it
 derives the temperature by blending each neutral ramp toward the given brand
 hue, so it works for any color, not just the two palettes in the original essay.
 
-## When to use
+> 中文：内置生成器（`scripts/generate_tokens.py`）是品牌无关的——它把每条中性色阶朝给定品牌色相方向混合，从而推导出整套系统的温度，因此对任意颜色都适用，而不局限于原文中的两套配色。
+
+## When to use · 何时使用
 
 - User provides a brand color / hex and wants a design system, CSS variables, or a theme.
+  · 用户提供品牌色 / hex，并想要一套设计系统、CSS 变量或主题。
 - User wants to make an existing UI look more premium ("my UI looks cheap").
+  · 用户想让现有 UI 显得更高级（"我的界面看起来很廉价"）。
 - User asks for tokens for light + dark mode, semantic colors, or a branded palette.
+  · 用户需要明 / 暗双模式、语义色或品牌化配色的 Token。
 - User wants a quick visual proof (preview) of a color direction.
+  · 用户想要某个配色方向的快速可视化预览。
 
 ## Workflow
 
