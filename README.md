@@ -1,6 +1,6 @@
 <a id="english"></a>
 
-# tinted-ui-tokens skills（品牌色 UI 设计 Token skills）
+# tinted-ui-tokens-skills（品牌色 UI 设计 Token skills）
 
 [![Type: Cross-Agent Skill](https://img.shields.io/badge/Type-Cross--Agent%20Skill-blue.svg)](agents/)
 [![Input: 1 brand color](https://img.shields.io/badge/input-1%20brand%20color-orange.svg)](#what-it-can-do)
@@ -48,7 +48,7 @@ goes*. Full wiring steps are in [`agents/`](agents/).
 
 | Agent | Rule / Command format | Install location | Engine | Status |
 | --- | --- | --- | --- | --- |
-| **Claude Code** | `SKILL.md` (skills) / `/command` | `~/.claude/skills/tinted-ui-tokens/` | Python script | ✅ Supported |
+| **Claude Code** | `SKILL.md` (skills) / `/command` | `~/.claude/skills/tinted-ui-tokens-skills/` | Python script | ✅ Supported |
 | **Cursor** | `.mdc` rule | `.cursor/rules/` or `~/.cursor/rules/` | Python script | ✅ Supported |
 | **OpenAI Codex** | `AGENTS.md` / `codex.md` | repo root or `~` | Python script | ✅ Supported |
 | **Cline** | `.clinerules` / `.cline/rules/*.md` | project or `~/.cline/rules/` | Python script | ✅ Supported |
@@ -56,7 +56,7 @@ goes*. Full wiring steps are in [`agents/`](agents/).
 | **WindSurf** | `.windsurfrules` | repo root or `~` | Python script | ✅ Supported |
 | **GitHub Copilot** | `copilot-instructions.md` | `.github/` | Python script | ✅ Supported |
 | **Gemini CLI** | `GEMINI.md` | repo root or `~` | Python script | ✅ Supported |
-| **WorkBuddy** | `SKILL.md` (skills) | `~/.workbuddy/skills/tinted-ui-tokens/` | Python script | ✅ Supported |
+| **WorkBuddy** | `SKILL.md` (skills) | `~/.workbuddy/skills/tinted-ui-tokens-skills/` | Python script | ✅ Supported |
 
 > All agents share the same engine and the same [`INSTRUCTIONS.md`](INSTRUCTIONS.md).
 > Once cloned, point your agent's rule file at it (see the per-agent docs) and you are done.
@@ -65,10 +65,10 @@ goes*. Full wiring steps are in [`agents/`](agents/).
 
 ```bash
 # 1. Get the engine + instructions
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 
 # 2. Run it directly (works in every agent's terminal)
-python ./tinted-ui-tokens/scripts/generate_tokens.py --brand "#2563EB" --name "Acme" --out "./out"
+python ./tinted-ui-tokens-skills/scripts/generate_tokens.py --brand "#2563EB" --name "Acme" --out "./out"
 ```
 
 Then wire it into your agent by following the matching doc in
@@ -198,7 +198,7 @@ WorkBuddy 中使用。
 
 | Agent | 规则 / 命令格式 | 安装位置 | 引擎 | 状态 |
 | --- | --- | --- | --- | --- |
-| **Claude Code** | `SKILL.md`（skills）/ `/command` | `~/.claude/skills/tinted-ui-tokens/` | Python 脚本 | ✅ 支持 |
+| **Claude Code** | `SKILL.md`（skills）/ `/command` | `~/.claude/skills/tinted-ui-tokens-skills/` | Python 脚本 | ✅ 支持 |
 | **Cursor** | `.mdc` 规则 | `.cursor/rules/` 或 `~/.cursor/rules/` | Python 脚本 | ✅ 支持 |
 | **OpenAI Codex** | `AGENTS.md` / `codex.md` | 仓库根目录或 `~` | Python 脚本 | ✅ 支持 |
 | **Cline** | `.clinerules` / `.cline/rules/*.md` | 项目或 `~/.cline/rules/` | Python 脚本 | ✅ 支持 |
@@ -206,7 +206,7 @@ WorkBuddy 中使用。
 | **WindSurf** | `.windsurfrules` | 仓库根目录或 `~` | Python 脚本 | ✅ 支持 |
 | **GitHub Copilot** | `copilot-instructions.md` | `.github/` | Python 脚本 | ✅ 支持 |
 | **Gemini CLI** | `GEMINI.md` | 仓库根目录或 `~` | Python 脚本 | ✅ 支持 |
-| **WorkBuddy** | `SKILL.md`（skills） | `~/.workbuddy/skills/tinted-ui-tokens/` | Python 脚本 | ✅ 支持 |
+| **WorkBuddy** | `SKILL.md`（skills） | `~/.workbuddy/skills/tinted-ui-tokens-skills/` | Python 脚本 | ✅ 支持 |
 
 > 所有 agent 共用同一个引擎与同一份 [`INSTRUCTIONS.md`](INSTRUCTIONS.md)。克隆仓库后，
 > 把指令粘贴进你所用 agent 的规则文件即可（见各 agent 文档）。
@@ -215,10 +215,10 @@ WorkBuddy 中使用。
 
 ```bash
 # 1. 获取引擎与指令
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 
 # 2. 直接运行（任意 agent 的终端都能跑）
-python ./tinted-ui-tokens/scripts/generate_tokens.py --brand "#2563EB" --name "Acme" --out "./out"
+python ./tinted-ui-tokens-skills/scripts/generate_tokens.py --brand "#2563EB" --name "Acme" --out "./out"
 ```
 
 然后按 [`agents/`](agents/) 中对应文档把技能接入你的 agent（通常只需把

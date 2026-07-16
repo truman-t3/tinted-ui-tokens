@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on Cursor
+# tinted-ui-tokens-skills on Cursor
 
 Cursor reads rules from `.cursor/rules/` (project) or `~/.cursor/rules/` (global).
 A ready-to-use rule file is provided: [`tinted-ui-tokens.mdc`](tinted-ui-tokens.mdc).
@@ -19,7 +19,7 @@ Also make the engine available — clone the repo or copy `scripts/generate_toke
 so Cursor can run it:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ~/.cursor/skills/tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ~/.cursor/skills/tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

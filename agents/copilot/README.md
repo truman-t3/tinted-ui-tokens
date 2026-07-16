@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on GitHub Copilot
+# tinted-ui-tokens-skills on GitHub Copilot
 
 GitHub Copilot (in VS Code / Codespaces) reads `.github/copilot-instructions.md`.
 
@@ -13,7 +13,7 @@ cat INSTRUCTIONS.md >> .github/copilot-instructions.md
 Make the engine available:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

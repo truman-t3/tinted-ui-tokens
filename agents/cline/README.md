@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on Cline (VS Code)
+# tinted-ui-tokens-skills on Cline (VS Code)
 
 Cline reads project rules from `.clinerules` / `.cline/rules/*.md` and global rules
 from `~/.cline/rules`.
@@ -18,7 +18,7 @@ cp INSTRUCTIONS.md ~/.cline/rules/tinted-ui-tokens.md
 Make the engine available:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ~/.cline/skills/tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ~/.cline/skills/tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

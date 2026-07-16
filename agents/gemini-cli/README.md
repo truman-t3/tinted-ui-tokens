@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on Gemini CLI (Google)
+# tinted-ui-tokens-skills on Gemini CLI (Google)
 
 Gemini CLI reads a `GEMINI.md` memory file from the working directory or your home.
 
@@ -13,7 +13,7 @@ cat INSTRUCTIONS.md >> GEMINI.md
 Make the engine available:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

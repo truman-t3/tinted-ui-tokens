@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on OpenAI Codex (Codex CLI)
+# tinted-ui-tokens-skills on OpenAI Codex (Codex CLI)
 
 Codex reads instruction files `AGENTS.md` / `codex.md` from the working directory
 and can execute shell commands (including the Python engine).
@@ -14,7 +14,7 @@ cat INSTRUCTIONS.md >> AGENTS.md
 Make the engine available (clone the repo so `scripts/generate_tokens.py` resolves):
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

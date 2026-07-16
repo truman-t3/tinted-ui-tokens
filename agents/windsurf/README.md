@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on WindSurf (Codeium)
+# tinted-ui-tokens-skills on WindSurf (Codeium)
 
 WindSurf reads `.windsurfrules` from the project root (or global memories).
 
@@ -13,7 +13,7 @@ cat INSTRUCTIONS.md >> .windsurfrules
 Make the engine available:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

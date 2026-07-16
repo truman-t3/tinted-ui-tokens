@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on Aider
+# tinted-ui-tokens-skills on Aider
 
 Aider reads conventions from `CONVENTIONS.md` (via `--read`) or `.aider.conf.yml`.
 
@@ -20,7 +20,7 @@ aider
 Make the engine available:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ./tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ./tinted-ui-tokens-skills
 ```
 
 ## Use · 使用

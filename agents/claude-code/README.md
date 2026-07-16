@@ -1,4 +1,4 @@
-# tinted-ui-tokens skills on Claude Code
+# tinted-ui-tokens-skills on Claude Code
 
 Claude Code supports the same `SKILL.md` format as WorkBuddy, so the repo's root
 `SKILL.md` drops in directly — no conversion needed.
@@ -8,7 +8,7 @@ Claude Code supports the same `SKILL.md` format as WorkBuddy, so the repo's root
 Clone the repo into your user-level skills directory:
 
 ```bash
-git clone https://github.com/truman-t3/tinted-ui-tokens ~/.claude/skills/tinted-ui-tokens
+git clone https://github.com/truman-t3/tinted-ui-tokens-skills ~/.claude/skills/tinted-ui-tokens-skills
 ```
 
 That's it. Claude Code auto-discovers the skill and reads `SKILL.md` (frontmatter
