@@ -1,4 +1,4 @@
-# tinted-ui-tokens on Gemini CLI (Google)
+# tinted-ui-tokens skills on Gemini CLI (Google)
 
 Gemini CLI reads a `GEMINI.md` memory file from the working directory or your home.
 

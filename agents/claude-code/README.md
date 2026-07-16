@@ -1,4 +1,4 @@
-# tinted-ui-tokens on Claude Code
+# tinted-ui-tokens skills on Claude Code
 
 Claude Code supports the same `SKILL.md` format as WorkBuddy, so the repo's root
 `SKILL.md` drops in directly — no conversion needed.

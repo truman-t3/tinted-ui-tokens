@@ -1,4 +1,4 @@
-# tinted-ui-tokens on Aider
+# tinted-ui-tokens skills on Aider
 
 Aider reads conventions from `CONVENTIONS.md` (via `--read`) or `.aider.conf.yml`.
 

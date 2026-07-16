@@ -1,4 +1,4 @@
-# tinted-ui-tokens on Cursor
+# tinted-ui-tokens skills on Cursor
 
 Cursor reads rules from `.cursor/rules/` (project) or `~/.cursor/rules/` (global).
 A ready-to-use rule file is provided: [`tinted-ui-tokens.mdc`](tinted-ui-tokens.mdc).

@@ -1,11 +1,13 @@
-# tinted-ui-tokens（品牌色 UI 设计 Token skills）
+<a id="english"></a>
+
+# tinted-ui-tokens skills（品牌色 UI 设计 Token skills）
 
 [![Type: Cross-Agent Skill](https://img.shields.io/badge/Type-Cross--Agent%20Skill-blue.svg)](agents/)
 [![Input: 1 brand color](https://img.shields.io/badge/input-1%20brand%20color-orange.svg)](#what-it-can-do)
 [![Engine: Python 3.10+](https://img.shields.io/badge/engine-Python%203.10%2B-green.svg)](#requirements)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-English | [中文](#中文说明)
+English | [中文](#chinese)
 
 A **cross-agent** skill that turns one brand color into a complete,
 production-ready **brand-tinted design-token system** — so your UI stops looking
@@ -155,9 +157,11 @@ MIT
 
 ---
 
+<a id="chinese"></a>
+
 # 中文说明
 
-[English](#tinted-ui-tokens品牌色-ui-设计-token) | 中文
+[English](#english) | 中文
 
 一个**跨 agent** 的技能：输入一个品牌色，自动生成一套完整、可直接上线的「染色中性色」
 设计 Token 系统——让你的 UI 不再因为扁平的中性色而显得廉价。它可在 Claude Code、

@@ -1,4 +1,4 @@
-# tinted-ui-tokens on Cline (VS Code)
+# tinted-ui-tokens skills on Cline (VS Code)
 
 Cline reads project rules from `.clinerules` / `.cline/rules/*.md` and global rules
 from `~/.cline/rules`.

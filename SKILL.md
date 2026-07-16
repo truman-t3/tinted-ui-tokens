@@ -5,7 +5,7 @@ description: "Generates a complete, production-ready design-token system from a 
 agent_created: true
 ---
 
-# Tinted UI Tokens（品牌色 UI 设计 Token skills）
+# Tinted UI Tokens skills（品牌色 UI 设计 Token skills）
 
 ## Overview
 

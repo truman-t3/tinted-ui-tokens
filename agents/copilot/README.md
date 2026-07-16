@@ -1,4 +1,4 @@
-# tinted-ui-tokens on GitHub Copilot
+# tinted-ui-tokens skills on GitHub Copilot
 
 GitHub Copilot (in VS Code / Codespaces) reads `.github/copilot-instructions.md`.
 

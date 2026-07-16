@@ -1,4 +1,4 @@
-# tinted-ui-tokens on OpenAI Codex (Codex CLI)
+# tinted-ui-tokens skills on OpenAI Codex (Codex CLI)
 
 Codex reads instruction files `AGENTS.md` / `codex.md` from the working directory
 and can execute shell commands (including the Python engine).

@@ -1,4 +1,4 @@
-# tinted-ui-tokens on WindSurf (Codeium)
+# tinted-ui-tokens skills on WindSurf (Codeium)
 
 WindSurf reads `.windsurfrules` from the project root (or global memories).
 
