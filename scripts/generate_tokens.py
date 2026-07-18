@@ -331,7 +331,7 @@ body {
 .swatch { width: 34px; height: 34px; border-radius: 8px; background: var(--color-brand);
   box-shadow: var(--shadow-sm); }
 .brand-meta { display: flex; flex-direction: column; line-height: 1.3; }
-.brand-meta b { font-size: .98rem; }
+.brand-meta b { font-size: .98rem; color: var(--color-text); }
 .brand-meta span { font-size: .72rem; color: var(--color-text-muted); letter-spacing: .04em; }
 .spacer { flex: 1; }
 .toggle {

@@ -26,8 +26,9 @@ runs anywhere Python 3.10+ is available. The instructions live in
 ![Light and dark UI generated from brand color #2563EB](assets/preview.png)
 
 > Above: light + dark output for brand `#2563EB` (cool). Every surface, border,
-> text layer, and semantic color is tinted toward the brand — run the generator
-> to get a live `preview.html` with a real light/dark toggle.
+> text layer, and semantic color is tinted toward the brand — the topbar title stays
+> legible in both modes. Run the generator to get a live `preview.html` with a real
+> light/dark toggle.
 
 ## Who This Is For
 
@@ -207,7 +208,8 @@ WorkBuddy 中使用。
 ![由品牌色 #2563EB 生成的明暗两套 UI](assets/preview.png)
 
 > 上图：品牌色 `#2563EB`（冷色）的明 / 暗两套输出。每个表面、边框、文字层级与语义色
-> 都朝品牌色方向染色——运行生成器即可得到带真实明暗切换的 `preview.html`。
+> 都朝品牌色方向染色——顶部标题在两种模式下均保持清晰可读。运行生成器即可得到带真实
+> 明暗切换的 `preview.html`。 
 
 ## 适合谁使用
 

@@ -4,6 +4,19 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/), and this project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [1.3.1] - 2026-07-18
+
+### Fixed
+- Dark-mode topbar title text in `preview.html` was invisible because
+  `.brand-meta b` only inherited `color` from `body`; the inherited value
+  resolved against the light theme and stayed dark on the dark card surface.
+  Added explicit `color: var(--color-text);` so the title re-resolves in dark
+  mode and remains readable.
+- Regenerated `assets/preview.png` from the fixed `preview.html` so the README
+  preview now shows a legible title in both light and dark halves.
+- Updated the English and Chinese README preview captions to note the title
+  legibility in both themes, keeping the two sections synchronized.
+
 ## [1.2.0] - 2026-07-18
 
 ### Added
