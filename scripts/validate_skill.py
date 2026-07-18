@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Self-contained skill validator for tinted-ui-tokens.
+Self-contained skill validator for tinted-ui-tokens-skills.
 
 Replicates the core frontmatter checks used by WorkBuddy's skill-creator
 ``quick_validate`` so that "passes CI" stays equivalent to "passes

@@ -8,7 +8,7 @@ alwaysApply: false
 
 When the user wants to generate UI color tokens, a design system, CSS variables,
 or a branded theme from a brand color (or wants to fix a "cheap-looking" flat UI),
-follow the instructions in `INSTRUCTIONS.md` of the tinted-ui-tokens repo:
+follow the instructions in `INSTRUCTIONS.md` of the tinted-ui-tokens-skills repo:
 
 1. Collect the brand hex (ask if missing).
 2. Run `scripts/generate_tokens.py --brand <hex> --name <name> --out <dir>`.
